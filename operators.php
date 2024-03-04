@@ -18,6 +18,17 @@ Subtraction Assignment (-=): $variable -= 5;
 Multiplication Assignment (*=): $variable *= 5;
 Division Assignment (/=): $variable /= 5;
 
+Comparison Operators: 👇
+
+Equal to (==): if ($a == $b) only check equal value
+Identical (===): if ($a === $b) check values as well as data types
+Not equal (!= or <>): if ($a != $b)
+Not identical (!==): if ($a !== $b)
+Greater than (>): if ($a > $b)
+Less than (<): if ($a < $b)
+Greater than or equal to (>=): if ($a >= $b)
+Less than or equal to (<=): if ($a <= $b)
+
 */
 
 ?>
