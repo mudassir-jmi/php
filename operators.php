@@ -29,6 +29,12 @@ Less than (<): if ($a < $b)
 Greater than or equal to (>=): if ($a >= $b)
 Less than or equal to (<=): if ($a <= $b)
 
+Logical Operators: 👇
+
+AND (&&): if ($a && $b) it's give true when both values is true
+OR (||): if ($a || $b) it's give true when any one value is true
+NOT (!): if (!$a)  it's like a invertor if true then false if false then true
+
 */
 
 ?>
