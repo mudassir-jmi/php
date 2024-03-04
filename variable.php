@@ -23,3 +23,11 @@ echo $name;   // print the value
 echo "<h1>". $name ."</h1>";  // print using HTML tag
 echo "Hello : " . $name;
 ?>
+
+<?php 
+// constant variable 
+ 
+define("test", 50);
+echo test; // can't update constant variable
+
+?>
