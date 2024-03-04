@@ -33,5 +33,10 @@ do {
     $a++;
 } while ($a <= 10);
 
+// for Loop
+
+for($num=1; $num<=10; $num++) {
+    echo $num . ") Hello For Loop <br>";
+}
 
 ?>
