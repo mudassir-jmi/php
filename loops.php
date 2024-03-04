@@ -10,4 +10,18 @@ for loop
 forEach loop 
 
 */
+
+// $val = 1;
+// while($val <=10) {
+//     echo $val .") Hello <br>";
+//     $val++;
+// }
+
+$val = 1;
+echo "<ul>";
+while($val <=10) {
+    echo "<li>" . "Hello </li>";
+    $val++;
+}
+echo "</ul>";
 ?>
