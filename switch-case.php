@@ -4,7 +4,7 @@ $weekday = 2;
 
 switch ($weekday) {
     case 1:
-        echo "Today is Mondat";
+        echo "Today is Monday";
         break;
     case 2:
         echo "Today is Tuesday";
