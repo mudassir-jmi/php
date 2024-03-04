@@ -24,4 +24,14 @@ while($val <=10) {
     $val++;
 }
 echo "</ul>";
+
+// do while
+
+$a = 1;
+do {
+    echo "<h5> Hello </h5><br>";
+    $a++;
+} while ($a <= 10);
+
+
 ?>
