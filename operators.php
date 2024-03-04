@@ -35,6 +35,15 @@ AND (&&): if ($a && $b) it's give true when both values is true
 OR (||): if ($a || $b) it's give true when any one value is true
 NOT (!): if (!$a)  it's like a invertor if true then false if false then true
 
+Increment/Decrement Operators: 👇
+
+Increment (++) : $a++;
+Decrement (--) : $a--;
+
+$value = 5;
+$value++;
+echo $value;  // print 6
+
 */
 
 ?>
