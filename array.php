@@ -64,5 +64,33 @@ echo $matrix[0][1]; // Outputs: 2
 echo $matrix[1][2]; // Outputs: 6
 echo $matrix[2][0]; // Outputs: 7
 
+$emp  = [
+    [1,"Akhter","CTO", 100000],
+    [2,"Max","Designer", 200000],
+    [3,"Nemat","Developer", 50000],
+];
+
+echo $emp[0][0]; // print ist row and first value
+//  echo "<pre>";
+//  print_r($emp);
+//  echo "</pre>";
+
+// print all value using for loop
+
+echo "<br>";
+for($row=0; $row<3; $row++) {
+    for($col=0; $col<4; $col++) {
+        echo $emp[$row][$col] ." ";
+    }
+    echo "<br>";
+}
+
+// using forEach loop 👇
+foreach($emp as $v1) {
+    foreach($v1 as $v2) {
+        echo $v2 ." ";
+    }
+    echo "<br>";
+}
 
 ?>
