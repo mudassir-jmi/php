@@ -93,4 +93,46 @@ foreach($emp as $v1) {
     echo "<br>";
 }
 
+
+// multidimenstional associative array
+
+$marks = [
+    "Max" => [
+        "OS" => 60,
+        "C++" => 55,
+        "Math" => 60
+    ],
+    "Akhter" => [
+        "OS" => 30,
+        "C++" => 45,
+        "Math" => 80
+    ],
+    "Jhon" => [
+        "OS" => 60,
+        "C++" => 35,
+        "Math" => 60
+    ],
+];
+
+echo "<table border='2px' cellpadding='5px ' cellspacing='0' >
+<tr>
+<th>Student Name</th>
+<th>OS</th>
+<th>C++</th>
+<th>Math</th>
+</tr>
+";
+foreach($marks as $key => $v1) {
+    echo "<tr>
+    <td>$key</td>";
+    foreach($v1 as $v2) {
+       echo "<td>$v2</td>";
+    }
+    echo "</tr>";
+}
+echo "</table>";
+
+print_r($marks);
+
+
 ?>
