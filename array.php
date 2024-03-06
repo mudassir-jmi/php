@@ -134,5 +134,53 @@ echo "</table>";
 
 print_r($marks);
 
+?>
+
+<?php 
+// print array values using list() function
+
+$employee = [
+    [1,"Nemat","Plumber", 5000],
+    [2,"Nazir","Cook", 6000],
+    [3,"Nazir","Cook", 4000],
+    [4,"Nazre","Electrician", 8000],
+];
+
+echo "<br>";
+echo "<br>";
+
+echo "<table border='2px' cellpadding='5px ' cellspacing='0'>
+<tr style='color:red'>
+<th>Id</th>
+<th>Name</th>
+<th>Work</th>
+<th>Salary</th>
+</tr>
+";
+
+foreach($employee as list($id, $name, $work, $salary)) {
+    echo "<tr>
+    <td> $id </td>
+    <td> $name </td>
+    <td> $work </td>
+    <td> $salary </td>
+    </tr>";
+}
+
+echo "</table>";
 
 ?>
+
+<!-- in_array and array_search -->
+
+<?php 
+$food = array('orange', 'banana', 'grapes');
+
+// echo in_array(key-name, variable-name)
+echo in_array('banana', $food); // output 1 because banana is present in array
+
+echo array_search('grapes', $food); // it's return 2 that's means index number of value to search
+
+?>
+
+
