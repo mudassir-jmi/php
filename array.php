@@ -214,3 +214,14 @@ print_r ($newArray);
 echo "</pre>";
 
 ?>
+
+<?php 
+// array_merge()
+$arr1 = ["henry", "nemat", "nazir"];
+$arr2 = ["Paul", "Ali", "Khan"];
+$mergeArr = array_merge($arr1,$arr2);
+echo "<pre>";
+print_r($mergeArr);
+echo "</pre>";
+
+?>
