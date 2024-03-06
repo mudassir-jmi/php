@@ -225,3 +225,13 @@ print_r($mergeArr);
 echo "</pre>";
 
 ?>
+
+<?php 
+// Array_Slice function 👇
+
+$colors = ["red", "green", "blue", "yellow"];
+// array_slice(arrayname, startingpoint, length, true / false);
+$newValue = array_slice($colors,1,2,true);
+print_r($newValue); // print green and blue
+
+?>
