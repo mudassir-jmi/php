@@ -244,6 +244,19 @@ array_splice($values,0,3);
 echo "<pre>";
 print_r($values); 
 echo "</pre>";
+?>
 
 
+<?php 
+// array key function in array
+$car = [
+    "first" => "maruti",
+    "second" => "toyata",
+    "third" => "safari",
+];
+// $newCar = array_keys($car);
+// $newCar = array_key_first($car);
+// $newCar = array_key_last($car);
+$newCar = array_key_exists("third",$car);
+print_r($newCar);
 ?>
