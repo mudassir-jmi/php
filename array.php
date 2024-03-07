@@ -233,5 +233,17 @@ $colors = ["red", "green", "blue", "yellow"];
 // array_slice(arrayname, startingpoint, length, true / false);
 $newValue = array_slice($colors,1,2,true);
 print_r($newValue); // print green and blue
+?>
+
+<?php 
+// array_splice not create a new array
+// it is used to remove element
+$values = ["Toyata","Farari","Maruti","BMW"];
+
+array_splice($values,0,3);
+echo "<pre>";
+print_r($values); 
+echo "</pre>";
+
 
 ?>
