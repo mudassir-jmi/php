@@ -260,3 +260,16 @@ $car = [
 $newCar = array_key_exists("third",$car);
 print_r($newCar);
 ?>
+
+<?php 
+$a1 = array("a" =>"red", "b" => "green", "c" =>"blue", "d" => "yellow");
+
+$a2 = array("a" => "red", "f" => "green","d" => "purple");
+
+$newArray = array_intersect_key($a1,$a2); // match only keys
+
+$newArray = array_intersect_assoc($a1,$a2); // match keys as well as value
+
+print_r($newArray);
+
+?>
