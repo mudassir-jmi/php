@@ -273,3 +273,24 @@ $newArray = array_intersect_assoc($a1,$a2); // match keys as well as value
 print_r($newArray);
 
 ?>
+
+<?php 
+
+// array_sum method
+$sum = array(2,3,4,5,6);
+echo "Sum = " .array_sum($sum);
+
+// array_product method
+$mul = array(2,3,4,5,6);
+echo "Mul = " .array_product($mul)
+
+?>
+
+<?php 
+// array_rand method
+$col = array("red","green","blue","yellow","brown");
+$newCol = array_rand($col,1);
+print_r($newCol); // print random number only 1
+
+
+?>
