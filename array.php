@@ -294,3 +294,18 @@ print_r($newCol); // print random number only 1
 
 
 ?>
+
+
+<?php
+// map function in php
+
+ function findSquare($n) {
+    return $n * $n;
+ }
+
+ $a = [1,2,3,4,5];
+
+ $squareArray = array_map('findSquare',$a);
+ print_r($squareArray);
+ 
+?>
