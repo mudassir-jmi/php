@@ -327,3 +327,14 @@ $reduceArr = array_reduce($b,'reduceNum',0);
 print_r($reduceArr);
 
 ?>
+
+<?php 
+// ******* Sorting
+
+$sortval = array(12,10,8,4,3);
+sort($sortval); // acendeing sort
+rsort($sortval); // decending sort
+print_r($sortval);
+
+
+?>
