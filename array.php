@@ -329,6 +329,7 @@ print_r($reduceArr);
 ?>
 
 <?php 
+
 // ******* Sorting
 
 $sortval = array(12,10,8,4,3);
