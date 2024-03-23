@@ -297,6 +297,7 @@ print_r($newCol); // print random number only 1
 
 
 <?php
+
 // map function in php
 
  function findSquare($n) {
@@ -307,5 +308,22 @@ print_r($newCol); // print random number only 1
 
  $squareArray = array_map('findSquare',$a);
  print_r($squareArray);
+
  
+?>
+
+<?php 
+
+// reduce function 
+
+// array_reduce(arrayname, function, initialvalue);
+
+function reduceNum($acc,$n) {
+    return $acc + $n;
+}
+
+$b = [10,20,30,40,50];
+$reduceArr = array_reduce($b,'reduceNum',0); 
+print_r($reduceArr);
+
 ?>
